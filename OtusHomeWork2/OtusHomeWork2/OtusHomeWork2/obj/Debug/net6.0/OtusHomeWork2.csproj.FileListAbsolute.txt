@@ -1,0 +1,15 @@
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\bin\Debug\net6.0\OtusHomeWork2.exe
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\bin\Debug\net6.0\OtusHomeWork2.deps.json
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\bin\Debug\net6.0\OtusHomeWork2.runtimeconfig.json
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\bin\Debug\net6.0\OtusHomeWork2.dll
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\bin\Debug\net6.0\OtusHomeWork2.pdb
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.csproj.AssemblyReference.cache
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.AssemblyInfoInputs.cache
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.AssemblyInfo.cs
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.csproj.CoreCompileInputs.cache
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.dll
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\refint\OtusHomeWork2.dll
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.pdb
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\OtusHomeWork2.genruntimeconfig.cache
+D:\MyGit\OtusHomeWork\OtusHomeWork2\OtusHomeWork2\OtusHomeWork2\obj\Debug\net6.0\ref\OtusHomeWork2.dll

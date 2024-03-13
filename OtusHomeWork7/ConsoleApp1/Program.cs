@@ -23,14 +23,42 @@ namespace ConsoleApp1
              resultSum = 0;
             //Паралельное
             sw.Restart();
-            resultSum = ParallelEnumerable.Sum(list.AsParallel());
+            int countOfThread = 5;
+            List<Task> tasks = new List<Task>();
+            var _lock = new object();
+
+            for (int i = 0; i < countOfThread; i++)
+            {
+                var takeCount = list.Count / countOfThread;
+                var skipCount = takeCount * i;
+
+                
+                tasks.Add(Task.Run(() =>
+                {
+                    int threadSum = 0;
+                    threadSum += list.Skip(skipCount).Take(takeCount).Sum();
+
+                    lock (_lock)
+                    {
+                        resultSum += threadSum;
+
+                    }
+
+                }));
+
+
+            }
+
+            Task.WaitAll(tasks.ToArray());
+
+
+            //resultSum = ParallelEnumerable.Sum(list.AsParallel());
             sw.Stop();
             Console.WriteLine($"Сумма:{resultSum} Время выполнения параллельного вычисления: {sw.ElapsedMilliseconds}");
             //Паралельное c LINQ
             sw.Restart();
-            var linqSum = from n in list.AsParallel() select n; ;
+            resultSum = list.AsParallel().Sum();
 
-            resultSum = linqSum.Sum();
             sw.Stop();
             Console.WriteLine($"Сумма:{resultSum} Время выполнения LINQ: {sw.ElapsedMilliseconds}");
 

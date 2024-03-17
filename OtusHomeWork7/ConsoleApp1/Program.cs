@@ -12,7 +12,7 @@ namespace ConsoleApp1
             Random rnd = new Random();
             var resultSum = 0;
             List<int> list = new List<int>();
-            for (int i = 0; i < 10000000; i++)
+            for (int i = 0; i < 100000000; i++)
             {
                 list.Add(rnd.Next(10));
             }

@@ -15,10 +15,8 @@ namespace Otushomework8
 
                 foreach (var element in collection)
                 {
-                    // Преобразование элемента в число
                     float number = convertToNumber(element);
 
-                    // Сравнение с текущим максимумом
                     if (number > max)
                     {
                         max = number;

@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1.Models.Devices
+{
+    /// <summary>
+    /// Базовый класс, от которого наследуются
+    /// </summary>
+    public abstract class Device : ICloneable
+    {
+        public string Name {  get; set; }
+        public abstract object Clone();
+    }
+}
